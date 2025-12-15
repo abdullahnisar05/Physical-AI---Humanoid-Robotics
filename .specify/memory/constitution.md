@@ -1,55 +1,45 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!-- SYNC IMPACT REPORT:
+Version change: N/A -> 1.0.0
+Added sections: All principles and sections based on user input
+Removed sections: None (first version)
+Modified principles: N/A
+Templates requiring updates:
+  - .specify/templates/plan-template.md ⚠ pending (Constitution Check section needs alignment)
+  - .specify/templates/spec-template.md ✅ no changes needed
+  - .specify/templates/tasks-template.md ✅ no changes needed
+  - .specify/templates/phr-template.prompt.md ✅ no changes needed
+  - CLAUDE.md ✅ no changes needed
+Follow-up TODOs: None
+-->
+# AI/Spec-Driven Book Creation on Physical AI & Humanoid Robotics Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### Accuracy through verification
+Accuracy through verification against official tool documentation and best practices
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### Clarity for technical audience
+Clarity for a technical audience (developers and AI practitioners)
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### Reproducibility
+Reproducibility (all steps, code, and configurations must be executable and traceable)
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### Rigor
+Rigor (adhere to Spec-Kit Plus methodologies and Claude Code guidelines)
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### Traceability and Citation
+All technical claims and instructions must be traceable to sources; Citation format: Markdown links to official docs, GitHub repos, or relevant URLs; Source types: minimum 50% from official tool documentation (e.g., Docusaurus, Spec-Kit Plus, Claude Code)
 
-### [PRINCIPLE_6_NAME]
+### Zero Plagiarism
+Plagiarism check: 0% tolerance before deployment; Writing clarity: Flesch-Kincaid grade 8-10
 
+## Technical Standards and Constraints
+Book structure: Multi-chapter Docusaurus site with navigation and search; Tool usage: Mandatory integration of Spec-Kit Plus for specifications and Claude Code for generation; Deployment: GitHub Pages with continuous integration; Length: 10-20 chapters or equivalent sections
 
-[PRINCIPLE__DESCRIPTION]
-
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
-
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+## Success Criteria
+All processes verified against tool docs; Zero plagiarism detected; Successful deployment to GitHub Pages with no broken links or errors; Passes reproducibility test (e.g., another user can recreate the book from specs)
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
+Constitution supersedes all other practices; Amendments require documentation and approval; All work must comply with these principles; Success measured by adherence to accuracy, clarity, reproducibility, and rigor standards
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
-
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-15 | **Last Amended**: 2025-12-15

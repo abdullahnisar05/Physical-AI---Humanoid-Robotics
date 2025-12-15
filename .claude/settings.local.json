@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ren \"D:\\Physical AI & Humanoid Robotics\\website\\docs\\appendices\\05-ros2-reference.md\" \"06-ros2-reference.md\")"
+    ]
+  }
+}
