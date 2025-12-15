@@ -2,7 +2,7 @@
   "name": "website",
   "version": "0.0.0",
   "private": true,
-  "homepage": "https://abdullahnisar05.github.io/Physical-AI---Humanoid-Robotics/",
+  "homepage": "https://abdullahnisar05.github.io/Physical-AI---Humanoid-Robotics",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
