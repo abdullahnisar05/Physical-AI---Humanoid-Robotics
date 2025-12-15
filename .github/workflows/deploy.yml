@@ -26,11 +26,14 @@ jobs:
         run: |
           cd website
           npm ci
+          npm list @docusaurus/core
 
       - name: Build website
         run: |
           cd website
+          echo "Starting build process..."
           npm run build
+          echo "Build completed."
 
       - name: Deploy to GitHub Pages
         if: github.ref == 'refs/heads/main'
