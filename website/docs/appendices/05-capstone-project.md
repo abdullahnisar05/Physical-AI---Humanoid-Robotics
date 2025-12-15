@@ -298,8 +298,8 @@ Upon completion of this capstone project, students will be able to:
 - **CUDA**: Compatible version for Isaac ROS acceleration
 
 ### Performance Targets
-- **Voice Recognition**: <2 second response time
-- **Command Processing**: <1 second for simple commands
+- **Voice Recognition**: &lt;2 second response time
+- **Command Processing**: &lt;1 second for simple commands
 - **Navigation**: >90% success rate in known environments
 - **Manipulation**: >80% success rate for simple pick-and-place
 - **System Stability**: 8+ hours continuous operation without failure
