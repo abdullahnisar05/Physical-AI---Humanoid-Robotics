@@ -30,7 +30,7 @@ Upon completion of this capstone project, students will be able to:
 ## System Architecture
 
 ### High-Level Architecture
-```
+```text
 ┌─────────────────┐    ┌──────────────────┐    ┌──────────────────┐
 │   Human User    │    │  VLA Interface   │    │  ROS 2 System    │
 │                 │───▶│                  │───▶│                  │
