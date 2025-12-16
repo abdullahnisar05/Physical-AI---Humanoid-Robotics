@@ -88,7 +88,7 @@ const config: Config = {
           label: 'Book',
         },
         {
-          href: 'https://github.com/Physical-AI-Humanoid-Robotics/book',
+          href: 'https://github.com/abdullahnisar05/Physical-AI---Humanoid-Robotics',
           label: 'GitHub',
           position: 'right',
         },
