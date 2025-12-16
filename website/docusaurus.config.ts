@@ -44,7 +44,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Physical-AI-Humanoid-Robotics/book/edit/main/website/',
+            'https://github.com/abdullahnisar05/Physical-AI---Humanoid-Robotics/edit/main/website/',
         },
         blog: {
           showReadingTime: true,
@@ -55,7 +55,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Physical-AI-Humanoid-Robotics/book/edit/main/website/',
+            'https://github.com/abdullahnisar05/Physical-AI---Humanoid-Robotics/edit/main/website/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -119,7 +119,7 @@ const config: Config = {
             },
             {
               label: 'GitHub Discussions',
-              href: 'https://github.com/Physical-AI-Humanoid-Robotics/book/discussions',
+              href: 'https://github.com/abdullahnisar05/Physical-AI---Humanoid-Robotics/discussions',
             },
           ],
         },
@@ -128,7 +128,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/Physical-AI-Humanoid-Robotics/book',
+              href: 'https://github.com/abdullahnisar05/Physical-AI---Humanoid-Robotics',
             },
             {
               label: 'NVIDIA Isaac ROS',
