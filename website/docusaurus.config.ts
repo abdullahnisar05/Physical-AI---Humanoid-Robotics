@@ -103,7 +103,7 @@ const config: Config = {
           items: [
             {
               label: 'Book Contents',
-              to: '/docs/introduction/01-welcome',
+              to: '/docs/introduction/welcome',
             },
           ],
         },
