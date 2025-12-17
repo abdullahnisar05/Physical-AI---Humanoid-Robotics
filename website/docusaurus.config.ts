@@ -70,16 +70,12 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/favicon.ico', // Using favicon as placeholder for social card
     colorMode: {
       respectPrefersColorScheme: true,
     },
     navbar: {
       title: 'Physical AI & Humanoid Robotics',
-      logo: {
-        alt: 'Physical AI & Humanoid Robotics Logo',
-        src: 'img/logo.svg',
-      },
       items: [
         {
           type: 'docSidebar',
@@ -124,10 +120,23 @@ const config: Config = {
           ],
         },
         {
-          title: 'More',
+          title: 'Social',
           items: [
             {
               label: 'GitHub',
+              href: 'https://github.com/abdullahnisar05',
+            },
+            {
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/in/abdullahnisar05',
+            },
+          ],
+        },
+        {
+          title: 'More',
+          items: [
+            {
+              label: 'Project GitHub',
               href: 'https://github.com/abdullahnisar05/Physical-AI---Humanoid-Robotics',
             },
             {
@@ -137,7 +146,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Physical AI & Humanoid Robotics. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Physical AI & Humanoid Robotics.`,
     },
     prism: {
       theme: prismThemes.github,
